@@ -1,0 +1,19 @@
+$ git branch -a
+* main
+  bug-fix-typo
+  feature/simple-calculator
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/feature/simple-calculator
+
+$ git branch -v
+* main                    e4f5g6h Fix typo in README.md
+  bug-fix-typo           e4f5g6h Fix typo in README.md
+  feature/simple-calculator a1b2c3d Update project documentation
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean

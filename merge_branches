@@ -1,0 +1,14 @@
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+$ git merge bug-fix-typo
+Updating a1b2c3d..e4f5g6h
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git log --oneline -3
+e4f5g6h (HEAD -> main, bug-fix-typo) Fix typo in README.md
+a1b2c3d Update project documentation
+9i8j7k6 Initial commit with project structure
